@@ -3,8 +3,8 @@
 <div align="center">
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-orange)](CONTRIBUTING.md)
+
+
 [![Last Updated](https://img.shields.io/badge/Last%20Updated-March%202025-red)](https://github.com/yourusername/VLM-Medical-Imaging-Survey)
 
 </div>
