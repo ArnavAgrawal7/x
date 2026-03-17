@@ -27,8 +27,6 @@
   - [Fine-tuning & PEFT](#fine-tuning--peft)
   - [Zero/Few-Shot](#zerofew-shot)
 - [Datasets & Benchmarks](#-datasets--benchmarks)
-- [Evaluation Metrics](#-evaluation-metrics)
-- [Open Challenges](#-open-challenges)
 - [Citation](#-citation)
 
 ---
