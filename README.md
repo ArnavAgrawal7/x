@@ -58,53 +58,16 @@ Vision–Language Models for Medical Imaging
 
 ## 📄 Survey Papers
 
-**[Vision-Language Models for Medical Report Generation and Visual Question Answering: A Review](https://doi.org/10.3389/frai.2024.1430984)** [Frontiers in AI, 2024]  
-Iryna Hartsock, Ghulam Rasool  
-*Covers 18 public datasets and in-depth analysis of 16 recent medical VLMs*
-
----
-
-**[A Survey of Medical Vision-and-Language Applications and Their Techniques](https://arxiv.org/abs/2411.12195)** [arXiv, 2024]  
-Qi Chen et al.  
-*Covers report generation, VQA, segmentation, diagnosis, and image-text retrieval*
-
-[![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com)
-
----
-
-**[Vision-Language Models in Medicine](https://arxiv.org/abs/2503.01863)** [arXiv, 2025]  
-Beria Chingnabe Kalpelbe, Angel Gabriel Adaambiik, Wei Peng  
-*Reviews foundational technology, clinical applications, and key ethical challenges*
-
----
-
-**[Vision-Language Models in Medical Image Analysis: From Simple Fusion to General Large Models](https://doi.org/10.1016/j.inffus.2025.102995)** [Information Fusion, Elsevier Q1, 2025]  
-*Reviews 130+ papers spanning simple fusion to large-scale foundation models*
-
-[![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com)
-
----
-
-**[Vision-Language Foundation Model for 3D Medical Imaging](https://www.nature.com/articles/s44387-025-00015-9)** [npj Artificial Intelligence, Nature Portfolio, 2025]  
-*Reviews 23 studies on VLFMs for 3D medical imaging — CT and MRI*
-
----
-
-**[Large Language Model for Medical Images: A Survey of Taxonomy, Systematic Review, and Future Trends](https://doi.org/10.26599/BDMA.2024.9020090)** [Big Data Mining and Analytics, 2025]  
-*Introduces novel x-stage tuning paradigm: zero-stage, one-stage, and multi-stage*
-
----
-
-**[Vision-Language Foundation Models for Medical Imaging: A Review (2022–2024)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12411343/)** [PMC / NIH, 2024]  
-*Structured taxonomy across X-ray, MRI, CT, and pathology modalities*
-
----
-
-**[LViT: Language Meets Vision Transformer in Medical Image Segmentation](https://arxiv.org/abs/2206.14718)** [IEEE Transactions on Medical Imaging, Vol.43(1), 2024]  
-Zhuoran Li, Zhiyuan Li, Fenglong Ma, Luping Zhou, Jing Zhang  
-*First work integrating text annotations with vision transformer for medical image segmentation*
-
-[![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/HUANGLIZI/LViT)
+| Title | Venue | Year |
+|-------|-------|------|
+| [Vision-Language Models for Medical Report Generation and Visual Question Answering: A Review](https://doi.org/10.3389/frai.2024.1430984) | Frontiers in Artificial Intelligence | 2024 |
+| [A Survey of Medical Vision-and-Language Applications and Their Techniques](https://arxiv.org/abs/2411.12195) | arXiv:2411.12195 | 2024 |
+| [Vision-Language Models in Medicine](https://arxiv.org/abs/2503.01863) | arXiv:2503.01863 | 2025 |
+| [Vision-Language Models in Medical Image Analysis: From Simple Fusion to General Large Models](https://doi.org/10.1016/j.inffus.2025.102995) | Information Fusion, Elsevier Q1 | 2025 |
+| [Vision-Language Foundation Model for 3D Medical Imaging](https://www.nature.com/articles/s44387-025-00015-9) | npj Artificial Intelligence, Nature Portfolio | 2025 |
+| [Large Language Model for Medical Images: A Survey of Taxonomy](https://doi.org/10.26599/BDMA.2024.9020090) | Big Data Mining and Analytics | 2025 |
+| [Vision-Language Foundation Models for Medical Imaging (2022–2024)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12411343/) | PMC / NIH | 2024 |
+| [LViT: Language Meets Vision Transformer in Medical Image Segmentation](https://arxiv.org/abs/2206.14718) | IEEE Transactions on Medical Imaging, Vol.43(1) | 2024 |
 
 ---
 
@@ -112,113 +75,47 @@ Zhuoran Li, Zhiyuan Li, Fenglong Ma, Luping Zhou, Jing Zhang
 
 ### Closed-Ended VQA
 
-**[Prompting Medical Large Vision-Language Models to Diagnose Pathologies by Visual Question Answering](https://arxiv.org/abs/2407.21368)** [arXiv, 2024]  
-Danfeng Guo, Demetri Terzopoulos  
-*Modality: Chest X-Ray | Prompting strategies for closed-ended diagnostic VQA*
-
----
-
-**[GeMeX: A Large-Scale, Groundable, Explainable Medical VQA Benchmark](https://arxiv.org/abs/2411.16778)** [arXiv, 2024]  
-*Modality: Chest X-Ray | Large-scale grounded and explainable Med-VQA benchmark*
-
----
-
-**[SLAKE: Semantically-Labeled Knowledge-Enhanced Dataset for Medical Visual Question Answering](https://arxiv.org/abs/2102.09542)** [IEEE ISBI, 2021]  
-Bo Liu et al.  
-*Modality: Multi-modal | 14,000 bilingual QA pairs with semantic labels*
-
-[![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/Med-VQA/SLAKE)
-
----
+| Title | Venue | Year | Modality |
+|-------|-------|------|----------|
+| [Prompting Medical Large Vision-Language Models to Diagnose Pathologies by Visual Question Answering](https://arxiv.org/abs/2407.21368) | arXiv:2407.21368 | 2024 | Chest X-Ray |
+| [GeMeX: A Large-Scale, Groundable, Explainable Medical VQA Benchmark](https://arxiv.org/abs/2411.16778) | arXiv:2411.16778 | 2024 | Chest X-Ray |
+| [SLAKE: A Semantically-Labeled Knowledge-Enhanced Dataset for Medical Visual Question Answering](https://arxiv.org/abs/2102.09542) | IEEE 18th Int. Symposium on Biomedical Imaging (ISBI 2021), pp.1650–1654 | 2021 | Multi-modal |
 
 ### Open-Ended / Generative VQA
 
-**[Targeted Visual Prompting for Medical Visual Question Answering](https://arxiv.org/abs/2408.03043)** [arXiv, 2024]  
-*Modality: Radiology | Region-targeted prompting strategy for open-ended clinical VQA*
-
----
-
-**[AMANDA: Agentic Medical Knowledge Augmentation for Visual Question Answering](https://aclanthology.org/2025.findings-emnlp.1350.pdf)** [EMNLP Findings, 2025]  
-*Modality: Multi-modal | Agentic reasoning with knowledge retrieval for Med-VQA*
-
----
-
-**[PMC-VQA: Visual Instruction Tuning for Medical Visual Question Answering](https://arxiv.org/abs/2305.10415)** [arXiv, 2023]  
-Xiaoman Zhang et al.  
-*Modality: Multi-modal | 227K QA pairs constructed from PubMed Central*
-
-[![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/xiaoman-zhang/PMC-VQA)
-
----
+| Title | Venue | Year | Modality |
+|-------|-------|------|----------|
+| [Targeted Visual Prompting for Medical Visual Question Answering](https://arxiv.org/abs/2408.03043) | arXiv:2408.03043 | 2024 | Radiology |
+| [AMANDA: Agentic Medical Knowledge Augmentation for Visual Question Answering](https://aclanthology.org/2025.findings-emnlp.1350.pdf) | Findings of EMNLP 2025 | 2025 | Multi-modal |
+| [PMC-VQA: Visual Instruction Tuning for Medical Visual Question Answering](https://arxiv.org/abs/2305.10415) | arXiv:2305.10415 | 2023 | Multi-modal |
 
 ### Region-Grounded VQA
 
-**[HEAL-MedVQA: Hallucination Evaluation via Localization in Medical VQA](https://arxiv.org/abs/2505.00744)** [arXiv, 2025]  
-*Modality: Radiology | 67K QA pairs with spatial grounding and hallucination evaluation*
-
----
-
-**[MIMO: A Medical Vision Language Model with Visual Referring Multimodal Input and Pixel Grounding Output](https://arxiv.org/abs/2510.10011)** [CVPR 2025, pp.24732–24741]  
-*Modality: Multi-organ | First model enabling pixel-level grounding output for medical VQA*
-
----
-
-**[Dual Modality Prompt Learning for Visual Question Answering in Robotic Surgery](https://doi.org/10.1007/s42979-024-02705-4)** [Visual Computing, 2024]  
-*Modality: Surgical endoscopy | Dual-branch prompt learning for surgical scene understanding*
-
----
+| Title | Venue | Year | Modality |
+|-------|-------|------|----------|
+| [HEAL-MedVQA: Hallucination Evaluation via Localization in Medical VQA](https://arxiv.org/abs/2505.00744) | arXiv:2505.00744 | 2025 | Radiology |
+| [MIMO: A Medical Vision Language Model with Visual Referring Multimodal Input and Pixel Grounding Output](https://arxiv.org/abs/2510.10011) | IEEE/CVF CVPR 2025, pp.24732–24741 | 2025 | Multi-organ |
+| [Dual Modality Prompt Learning for Visual Question Answering in Robotic Surgery](https://doi.org/10.1007/s42979-024-02705-4) | SN Computer Science (Springer), 2024 | 2024 | Surgical |
 
 ### Hallucination & Robustness
 
-**[Prompting Strategies to Reduce Hallucination in Multimodal Large Vision-Language Models](https://arxiv.org/abs/2407.21368)** [arXiv, 2025]  
-*Systematic study on reducing hallucinated clinical findings in Med-VLMs*
-
----
-
-**[How Easy Is It to Fool Your Multimodal LLMs? An Empirical Analysis on Deceptive Prompts](https://arxiv.org/abs/2402.13220)** [arXiv, 2024]  
-*Robustness evaluation of multimodal LLMs under adversarial and deceptive prompting*
+| Title | Venue | Year |
+|-------|-------|------|
+| [Prompting Strategies to Reduce Hallucination in Multimodal Large Vision-Language Models](https://arxiv.org/abs/2407.21368) | arXiv:2407.21368 | 2025 |
+| [How Easy Is It to Fool Your Multimodal LLMs? An Empirical Analysis on Deceptive Prompts](https://arxiv.org/abs/2402.13220) | arXiv:2402.13220 | 2024 |
 
 ---
 
 ## 📝 Report Generation
 
-**[R2GenGPT: Radiology Report Generation with Frozen Large Language Models](https://arxiv.org/abs/2309.09812)** [arXiv, 2023]  
-Zhanyu Wang et al.  
-*Modality: Chest X-ray | Frozen LLM with lightweight visual adapter for report generation*
-
-[![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/wang-zhanyu/R2GenGPT)
-
----
-
-**[BioViL-T: Learning to Follow Instructions for Radiology Report Summarisation](https://arxiv.org/abs/2301.04558)** [MICCAI 2023]  
-Bannur et al.  
-*Modality: Chest X-ray | Temporal chest X-ray understanding with language grounding*
-
-[![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/microsoft/hi-ml/tree/main/hi-ml-multimodal)
-
----
-
-**[CheXagent: Towards a Foundation Model for Chest X-Ray Analysis](https://arxiv.org/abs/2401.12208)** [arXiv, 2024]  
-Zhihong Chen et al.  
-*Modality: Chest X-ray | Instruction-following foundation model for radiology*
-
-[![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/Stanford-AIMI/CheXagent)
-
----
-
-**[Enhancing Vision-Language Models for Medical Imaging (BrainMD + Vote-MI)](https://proceedings.neurips.cc/paper_files/paper/2024/file/b53513b83232116ae25f57a174a7c993-Paper-Datasets_and_Benchmarks_Track.pdf)** [NeurIPS 2024, Datasets & Benchmarks Track]  
-*Modality: Brain MRI | Vote-MI slice selection + BrainMD dataset (2,453 annotated 3D MRI scans)*
-
----
-
-**[SlideChat: A Large Vision-Language Assistant for Whole-Slide Pathology Image Understanding](https://arxiv.org/abs/2410.11761)** [CVPR 2025, pp.5134–5143]  
-Ying Chen et al.  
-*Modality: Pathology WSI | First conversational assistant for gigapixel whole-slide images*
-
----
-
-**[CheXWorld: Exploring Image World Modeling for Radiograph Representation Learning](https://arxiv.org/abs/2504.13820)** [CVPR 2025]  
-*Modality: Chest X-ray | World model-based self-supervised pre-training for radiology*
+| Title | Venue | Year | Modality |
+|-------|-------|------|----------|
+| [R2GenGPT: Radiology Report Generation with Frozen Large Language Models](https://arxiv.org/abs/2309.09812) | Meta-Radiology, Vol.1(3):100033, Elsevier | 2023 | Chest X-ray |
+| [BioViL-T: Learning to Exploit Temporal Structure for Biomedical Vision-Language Processing](https://arxiv.org/abs/2301.04558) | IEEE/CVF CVPR 2023, pp.15016–15027 | 2023 | Chest X-ray |
+| [CheXagent: Towards a Foundation Model for Chest X-Ray Analysis](https://arxiv.org/abs/2401.12208) | arXiv:2401.12208 | 2024 | Chest X-ray |
+| [Enhancing Vision-Language Models for Medical Imaging (BrainMD + Vote-MI)](https://proceedings.neurips.cc/paper_files/paper/2024/file/b53513b83232116ae25f57a174a7c993-Paper-Datasets_and_Benchmarks_Track.pdf) | NeurIPS 2024 Datasets & Benchmarks Track | 2024 | Brain MRI |
+| [SlideChat: A Large Vision-Language Assistant for Whole-Slide Pathology Image Understanding](https://arxiv.org/abs/2410.11761) | IEEE/CVF CVPR 2025, pp.5134–5143 | 2025 | Pathology WSI |
+| [CheXWorld: Exploring Image World Modeling for Radiograph Representation Learning](https://arxiv.org/abs/2504.13820) | IEEE/CVF CVPR 2025 | 2025 | Chest X-ray |
 
 ---
 
@@ -226,74 +123,28 @@ Ying Chen et al.
 
 ### Pre-training Strategies
 
-**[BioMedCLIP: A Multimodal Biomedical Foundation Model Pretrained from Fifteen Million Scientific Image-Text Pairs](https://arxiv.org/abs/2303.00915)** [arXiv, 2023]  
-Sheng Zhang et al.  
-*PMC-15M dataset — 15M biomedical image-text pairs from 4.4M scientific articles*
-
-[![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/microsoft/BiomedCLIP)
-
----
-
-**[PMC-CLIP: Contrastive Language-Image Pre-training using Biomedical Documents](https://arxiv.org/abs/2303.07240)** [MICCAI 2023]  
-Weixiong Lin et al.  
-*PMC-OA dataset — 1.65M image-caption pairs from PubMed Central*
-
----
-
-**[PubMedCLIP: How Much Does CLIP Benefit Visual Question Answering in the Medical Domain?](https://arxiv.org/abs/2112.13906)** [EACL Findings, 2023]  
-Sedigheh Eslami et al.  
-*Fine-tuned CLIP on PubMed medical image-text data for Med-VQA improvement*
-
----
-
-**[LLaVA-Med: Training a Large Language-and-Vision Assistant for Biomedicine in One Day](https://arxiv.org/abs/2306.00890)** [NeurIPS 2023]  
-Chunyuan Li et al.  
-*Self-instructed biomedical instruction-following data pipeline using GPT-4*
-
-[![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/microsoft/LLaVA-Med)
-
----
-
-**[VILA-M3: Enhancing Vision-Language Models with Medical Expert Knowledge](https://arxiv.org/abs/2411.12915)** 🏆 [CVPR 2025 Highlight, pp.14788–14798]  
-Vishwesh Nath et al.  
-*Integrates structured medical expert knowledge into general VLMs for clinical tasks*
-
----
+| Title | Venue | Year |
+|-------|-------|------|
+| [BioMedCLIP: A Multimodal Biomedical Foundation Model Pretrained from Fifteen Million Scientific Image-Text Pairs](https://arxiv.org/abs/2303.00915) | arXiv:2303.00915 | 2023 |
+| [PMC-CLIP: Contrastive Language-Image Pre-training using Biomedical Documents](https://arxiv.org/abs/2303.07240) | MICCAI 2023 | 2023 |
+| [PubMedCLIP: How Much Does CLIP Benefit Visual Question Answering in the Medical Domain?](https://arxiv.org/abs/2112.13906) | Findings of EACL 2023, pp.1151–1163 | 2023 |
+| [LLaVA-Med: Training a Large Language-and-Vision Assistant for Biomedicine in One Day](https://arxiv.org/abs/2306.00890) | NeurIPS 2023 Datasets & Benchmarks Track (Spotlight) | 2023 |
+| [VILA-M3: Enhancing Vision-Language Models with Medical Expert Knowledge](https://arxiv.org/abs/2411.12915) 🏆 | IEEE/CVF CVPR 2025 Highlight, pp.14788–14798 | 2025 |
 
 ### Fine-tuning & PEFT
 
-**[PeFoMed: Parameter Efficient Fine-Tuning on Multimodal Large Language Models for Medical Visual Question Answering](https://arxiv.org/abs/2401.02797)** [arXiv, 2024]  
-Jinlong He et al.  
-*Lightweight adapter tuning of LLaVA-style models for Med-VQA*
-
----
-
-**[Med-MoE: Mixture of Domain-Specific Experts for Medical Image Understanding](https://arxiv.org/abs/2404.10237)** [arXiv, 2024]  
-*Sparse mixture-of-experts architecture for multi-domain medical image understanding*
-
----
-
-**[BioMedGPT: Open Multimodal Generative Pre-trained Transformer for BioMedicine](https://arxiv.org/abs/2308.09442)** [arXiv, 2023]  
-Yizhen Luo et al.  
-*Unified generative pre-training across biomedical text, molecules, and images*
-
-[![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/PharMolix/OpenBioMed)
-
----
+| Title | Venue | Year |
+|-------|-------|------|
+| [PeFoMed: Parameter Efficient Fine-Tuning on Multimodal Large Language Models for Medical VQA](https://arxiv.org/abs/2401.02797) | arXiv:2401.02797 | 2024 |
+| [Med-MoE: Mixture of Domain-Specific Experts for Medical Image Understanding](https://arxiv.org/abs/2404.10237) | arXiv:2404.10237 | 2024 |
+| [BioMedGPT: Open Multimodal Generative Pre-trained Transformer for BioMedicine](https://arxiv.org/abs/2308.09442) | arXiv:2308.09442 | 2023 |
 
 ### Zero/Few-Shot
 
-**[Med-Flamingo: A Multimodal Medical Few-shot Learner](https://arxiv.org/abs/2307.15189)** [arXiv, 2023]  
-Michael Moor et al.  
-*Extends Flamingo to the medical domain with few-shot generalization across imaging tasks*
-
-[![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/snap-stanford/med-flamingo)
-
----
-
-**[T3D: Towards 3D Medical Image Understanding through Vision-Language Pre-training](https://arxiv.org/abs/2312.01529)** [arXiv, 2023]  
-Che Liu et al.  
-*First VL pre-training framework designed for volumetric 3D medical images*
+| Title | Venue | Year |
+|-------|-------|------|
+| [Med-Flamingo: A Multimodal Medical Few-shot Learner](https://arxiv.org/abs/2307.15189) | arXiv:2307.15189 | 2023 |
+| [T3D: Towards 3D Medical Image Understanding through Vision-Language Pre-training](https://arxiv.org/abs/2312.01529) | arXiv:2312.01529 | 2023 |
 
 ---
 
@@ -343,9 +194,9 @@ Che Liu et al.
 ## 📈 Trend Summary (2023–2025)
 
 ```
-2023  →  Foundation models established: LLaVA-Med, Med-Flamingo, BioMedCLIP, LViT
+2023  →  Foundation models established: LLaVA-Med (NeurIPS), BioViL-T (CVPR), BioMedCLIP
 2024  →  Instruction tuning, PEFT, grounded VQA, hallucination research, IEEE TMI VLP
-2025  →  CVPR highlights (VILA-M3, MIMO, SlideChat), agentic VQA, 3D imaging VLMs
+2025  →  CVPR highlights (VILA-M3, MIMO, SlideChat, CheXWorld), agentic VQA, 3D VLMs
 ```
 
 ---
@@ -367,7 +218,7 @@ Che Liu et al.
 ## 🤝 Contributing
 
 1. Fork this repo
-2. Add paper in the existing style: **[Title](link)** [Venue, Year] — Authors — Description
+2. Add paper in existing table format: **[Title](arxiv or doi link)** | Venue | Year
 3. Submit a Pull Request
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for full guidelines.
