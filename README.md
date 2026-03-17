@@ -239,23 +239,14 @@ If you find this repository useful, please cite:
 
 ---
 
-## 🤝 Contributing
-
-We welcome contributions! If you know of a paper that should be included:
-
-1. Fork this repo
-2. Add the paper to the relevant section in `README.md` following the existing format
-3. Submit a Pull Request with a short description
-
-Please see [CONTRIBUTING.md](CONTRIBUTING.md) for full guidelines.
 
 ---
 
 ## 📬 Contact
 
-Maintained by **[Your Name]**  
-📧 your.email@institution.edu  
-🔗 [Google Scholar](https://scholar.google.com) | [ResearchGate](https://researchgate.net)
+Maintained by **[YASH PRATAP SINGH]**  
+📧 yashthakur1700@gmail.com 
+
 
 ---
 
