@@ -13,7 +13,7 @@
 
 ---
 
-## 📌 Table of Contents
+## Table of Contents
 
 - [Survey Papers](#-survey-papers)
 - [Medical VQA](#-medical-vqa)
@@ -33,27 +33,6 @@
 
 ---
 
-## 🗺️ Taxonomy
-
-```
-Vision–Language Models for Medical Imaging
-│
-├── 1. Survey & Review Papers
-├── 2. Medical VQA
-│   ├── 2.1 Closed-ended (Yes/No, Multiple Choice)
-│   ├── 2.2 Open-ended (Generative)
-│   ├── 2.3 Region/Grounded VQA
-│   └── 2.4 Hallucination & Robustness
-├── 3. Report Generation
-│   ├── 3.1 Radiology (X-ray, CT, MRI)
-│   └── 3.2 Pathology
-├── 4. Foundation Models
-│   ├── 4.1 Pre-training Strategies
-│   ├── 4.2 Fine-tuning & PEFT
-│   └── 4.3 Zero/Few-shot
-└── 5. Datasets & Benchmarks
-```
-
 ---
 
 ## 📄 Survey Papers
@@ -71,7 +50,7 @@ Vision–Language Models for Medical Imaging
 
 ---
 
-## 🧠 Medical VQA
+##  Medical VQA
 
 ### Closed-Ended VQA
 
@@ -106,7 +85,7 @@ Vision–Language Models for Medical Imaging
 
 ---
 
-## 📝 Report Generation
+## Report Generation
 
 | Title | Venue | Year | Modality |
 |-------|-------|------|----------|
@@ -119,7 +98,7 @@ Vision–Language Models for Medical Imaging
 
 ---
 
-## 🏗️ Foundation Models
+##  Foundation Models
 
 ### Pre-training Strategies
 
@@ -148,7 +127,7 @@ Vision–Language Models for Medical Imaging
 
 ---
 
-## 📊 Datasets & Benchmarks
+## Datasets & Benchmarks
 
 | Dataset | Year | Size | Task | Modality |
 |---------|------|------|------|----------|
@@ -164,44 +143,9 @@ Vision–Language Models for Medical Imaging
 
 ---
 
-## 📏 Evaluation Metrics
-
-| Metric | Task | Description |
-|--------|------|-------------|
-| **BLEU** | Report Gen / VQA | N-gram overlap between generated and reference text |
-| **ROUGE-L** | Report Gen | Longest common subsequence recall |
-| **CIDEr** | Report Gen | Consensus-based image description evaluation |
-| **Accuracy** | Closed VQA | Exact match for Yes/No and MCQ |
-| **F1 Score** | Med-VQA | Harmonic mean of Precision & Recall |
-| **AUC-ROC** | Classification | Area under ROC curve |
-| **METEOR** | Report Gen | Alignment-based metric with synonym awareness |
-| **RadGraph F1** | Radiology Reports | Clinical entity-based evaluation |
-
 ---
 
-## 🔓 Open Challenges
-
-1. **Hallucination** — Models generate plausible but clinically incorrect answers
-2. **Data Scarcity** — Limited annotated medical VQA datasets
-3. **Generalization** — Models fail to generalize across imaging modalities
-4. **Interpretability** — Black-box predictions are not clinically trustworthy
-5. **Privacy & Ethics** — Patient data compliance (HIPAA, GDPR)
-6. **3D Understanding** — Most VLMs are 2D; 3D MRI/CT remains challenging
-7. **Evaluation Gap** — Standard NLP metrics poorly reflect clinical quality
-
----
-
-## 📈 Trend Summary (2023–2025)
-
-```
-2023  →  Foundation models established: LLaVA-Med (NeurIPS), BioViL-T (CVPR), BioMedCLIP
-2024  →  Instruction tuning, PEFT, grounded VQA, hallucination research, IEEE TMI VLP
-2025  →  CVPR highlights (VILA-M3, MIMO, SlideChat, CheXWorld), agentic VQA, 3D VLMs
-```
-
----
-
-## 📖 Citation
+## Citation
 
 ```bibtex
 @article{yourlastname2025vlm_medical_survey,
@@ -213,23 +157,11 @@ Vision–Language Models for Medical Imaging
 }
 ```
 
----
 
-## 🤝 Contributing
+##  Contact
 
-1. Fork this repo
-2. Add paper in existing table format: **[Title](arxiv or doi link)** | Venue | Year
-3. Submit a Pull Request
+Maintained by **[YASH PRATAP SINGH]**  
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for full guidelines.
-
----
-
-## 📬 Contact
-
-Maintained by **[Your Name]**  
-📧 your.email@institution.edu  
-🔗 [Google Scholar](https://scholar.google.com) | [ResearchGate](https://researchgate.net)
 
 ---
 
