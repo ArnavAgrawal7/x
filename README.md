@@ -5,10 +5,10 @@
 <div align="center">
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Paper](https://img.shields.io/badge/Paper-Survey-blue)](https://arxiv.org/abs/2403.02469)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-orange)](CONTRIBUTING.md)
-[![Stars](https://img.shields.io/github/stars/yourusername/VLM-Medical-Imaging-Survey?style=social)](https://github.com/yourusername/VLM-Medical-Imaging-Survey)
+
+
+
+Medical-Imaging-Survey)
 [![Last Updated](https://img.shields.io/badge/Last%20Updated-2025-red)](https://github.com/yourusername/VLM-Medical-Imaging-Survey)
 
 </div>
