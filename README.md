@@ -3,9 +3,13 @@
 <div align="center">
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-orange)](CONTRIBUTING.md)
+
+
+
 [![Last Updated](https://img.shields.io/badge/Last%20Updated-March%202025-red)](https://github.com/yourusername/VLM-Medical-Imaging-Survey)
+<img width="1408" height="768" alt="Firefly_GeminiFlash" src="https://github.com/user-attachments/assets/bfbad984-7ed0-48f6-a948-708aba16d7da" />
+
+
 
 </div>
 
@@ -13,7 +17,7 @@
 
 ---
 
-## 📌 Table of Contents
+## Table of Contents
 
 - [Survey Papers](#-survey-papers)
 - [Medical VQA](#-medical-vqa)
@@ -24,33 +28,12 @@
 - [Foundation Models](#-foundation-models)
   - [Pre-training](#pre-training-strategies)
   - [Fine-tuning & PEFT](#fine-tuning--peft)
-- [Datasets & Benchmarks](#-datasets--benchmarks)
-- [Evaluation Metrics](#-evaluation-metrics)
-- [Open Challenges](#-open-challenges)
+
+
 - [Citation](#-citation)
 
 ---
 
-## 🗺️ Taxonomy
-
-```
-Vision–Language Models for Medical Imaging
-│
-├── 1. Survey & Review Papers
-├── 2. Medical VQA
-│   ├── 2.1 Closed-ended (Yes/No, Multiple Choice)
-│   ├── 2.2 Open-ended (Generative)
-│   └── 2.3 Region/Grounded VQA
-├── 3. Report Generation
-│   ├── 3.1 Radiology (X-ray, CT, MRI)
-│   └── 3.2 Pathology
-├── 4. Foundation Models
-│   ├── 4.1 Pre-training Strategies
-│   └── 4.2 Fine-tuning & PEFT
-└── 5. Datasets & Benchmarks
-```
-
----
 
 ## 📄 Survey Papers
 
@@ -68,7 +51,7 @@ Vision–Language Models for Medical Imaging
 
 ---
 
-## 🧠 Medical VQA
+##  Medical VQA
 
 ### Closed-Ended VQA
 
@@ -91,7 +74,7 @@ Vision–Language Models for Medical Imaging
 
 ---
 
-## 📝 Report Generation
+## Report Generation
 
 | Title | Venue | Year | Modality |
 |-------|-------|------|----------|
@@ -103,7 +86,7 @@ Vision–Language Models for Medical Imaging
 
 ---
 
-## 🏗️ Foundation Models
+## Foundation Models
 
 ### Pre-training Strategies
 
@@ -122,53 +105,6 @@ Vision–Language Models for Medical Imaging
 
 ---
 
-## 📊 Datasets & Benchmarks
-
-| Dataset | Year | Size | Task | Modality |
-|---------|------|------|------|----------|
-| [VQA-RAD](https://osf.io/89kps/) | 2018 | 3,515 QA pairs | Closed/Open VQA | Radiology |
-| [SLAKE](https://www.med-vqa.com/slake/) | 2021 | 14,000 QA pairs | Bilingual VQA | Multi-modal |
-| [PathVQA](https://github.com/UCSD-AI4H/PathVQA) | 2020 | 32,799 QA pairs | VQA | Pathology |
-| [MIMIC-CXR-JPG](https://physionet.org/content/mimic-cxr-jpg/) | 2019 | 227K images | Report Gen + VQA | CXR |
-| [CheXpert](https://stanfordmlgroup.github.io/competitions/chexpert/) | 2019 | 224K images | Classification + VQA | CXR |
-| [BrainMD](https://proceedings.neurips.cc/) | 2024 | 2,453 MRI scans | VQA + Reports | Brain MRI |
-
----
-
-## 📏 Evaluation Metrics
-
-| Metric | Task | Description |
-|--------|------|-------------|
-| **BLEU** | Report Gen / VQA | N-gram overlap between generated and reference text |
-| **ROUGE-L** | Report Gen | Longest common subsequence recall |
-| **CIDEr** | Report Gen | Consensus-based image description evaluation |
-| **Accuracy** | Closed VQA | Exact match for Yes/No and MCQ |
-| **F1 Score** | Med-VQA | Harmonic mean of Precision & Recall |
-| **AUC-ROC** | Classification | Area under ROC curve |
-| **METEOR** | Report Gen | Alignment-based metric with synonym awareness |
-| **RadGraph F1** | Radiology Reports | Clinical entity-based evaluation |
-
----
-
-## 🔓 Open Challenges
-
-1. **Hallucination** — Models generate plausible but clinically incorrect answers
-2. **Data Scarcity** — Limited annotated medical VQA datasets
-3. **Generalization** — Models fail to generalize across imaging modalities
-4. **Interpretability** — Black-box predictions are not clinically trustworthy
-5. **Privacy & Ethics** — Patient data compliance (HIPAA, GDPR)
-6. **3D Understanding** — Most VLMs are 2D; 3D MRI/CT remains challenging
-7. **Evaluation Gap** — Standard NLP metrics poorly reflect clinical quality
-
----
-
-## 📈 Trend Summary (2023–2025)
-
-```
-2023  →  LLaVA-Med (NeurIPS), BioViL-T (CVPR), PMC-CLIP (MICCAI), LViT (IEEE TMI)
-2024  →  Mammo-CLIP (MICCAI), Few-Shot VLM Adaptation (MICCAI), PromptSmooth (MICCAI)
-2025  →  CVPR highlights — VILA-M3, MIMO, SlideChat, CheXWorld
-```
 
 ---
 
@@ -186,23 +122,11 @@ Vision–Language Models for Medical Imaging
 
 ---
 
-## 🤝 Contributing
 
-1. Fork this repo
-2. Add **only published** papers (conference/journal) — no arXiv-only preprints
-3. Use official publisher link (Springer, IEEE Xplore, CVF, ACL Anthology, NeurIPS)
-4. Format: **[Title](official DOI link)** | Venue with pages | Year
-5. Submit a Pull Request
+## Contact
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for full guidelines.
+Maintained by **[YASH PRATAP SINGH]**  
 
----
-
-## 📬 Contact
-
-Maintained by **[Your Name]**  
-📧 your.email@institution.edu  
-🔗 [Google Scholar](https://scholar.google.com) | [ResearchGate](https://researchgate.net)
 
 ---
 
